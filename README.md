@@ -1,4 +1,4 @@
-# Scraping-Infobae
+# Scraping-Newspaper
 
 
 In this project I will scale the web scrapin capabilities with beautiful soup.
