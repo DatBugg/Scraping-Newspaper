@@ -2,6 +2,8 @@ from bs4 import BeautifulSoup
 import requests
 import time
 
+#Function that allows obtaining the titles under the H2 tag
+
 def titles_infobae():
 
     url = 'https://www.infobae.com/'
@@ -13,8 +15,11 @@ def titles_infobae():
         print(t.getText())
         print('')
 
+
+#I set the timer to get response every 5 mins
+
 if __name__ == '__main__':
     while True:
         titles_infobae()
-        print('wating 60 secons... ')
+        print('wating 300 secons... ')
         time.sleep(60)
